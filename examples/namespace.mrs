@@ -1,0 +1,10 @@
+fn main() {
+    fn spot() {
+        println!("{}", 42);
+    }
+
+    let spot = 21;
+
+    // 3. Attempt to call the function
+    spot(); 
+}
